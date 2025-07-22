@@ -19,6 +19,12 @@
     body {
       font-family: 'Roboto', sans-serif;
     }
+
+    .social-icon {
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+    }
   </style>
 
 
@@ -38,19 +44,20 @@
           <a class="navbar-brand" href="#">Inicio</a>
           <a class="navbar-brand" href="#calcumate-root">Calculadora</a>
           <a class="navbar-brand" href="#Cotizacion">Cotización</a>
+          <a class="navbar-brand" href="#Ubicacion">Ubicacion</a>
         </div>
       </div>
 
       <!-- Redes sociales -->
       <div class="d-flex align-items-center">
         <a href="https://www.facebook.com/people/Lluna-Mini-Bodegas/100089609858377/" target="_blank" class="me-2">
-          <img src="facebook.png" alt="Facebook" class="img-fluid" style="height: 30px; width: 30px;">
+          <img src="facebook.png" alt="Facebook" class="img-fluid social-icon">
         </a>
         <a href="https://www.tiktok.com/@llunaminibodegas" target="_blank" class="me-2">
-          <img src="tiktok.png" alt="TikTok" class="img-fluid" style="height: 30px; width: 30px;">
+          <img src="tiktok.png" alt="TikTok" class="img-fluid social-icon">
         </a>
         <a href="https://www.instagram.com/llunaminibodegas/" target="_blank">
-          <img src="instagram.png" alt="Instagram" class="img-fluid" style="height: 30px; width: 30px;">
+          <img src="instagram.png" alt="Instagram" class="img-fluid social-icon">
         </a>
       </div>
 
@@ -107,110 +114,71 @@
   </div>
 
   <!-- Inicio -->
-  <div class="container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <img src="05.jpg" alt="Bodega Lluna" class="img-fluid rounded shadow"
-          style="max-height: 300px; object-fit: cover;">
-        <p>
-        <h1>Sobre Nosotros</h1>
-        <strong>En LLUNA MINI BODEGAS</strong>
-        ofrecemos espacios de almacenamiento seguros, accesibles y adaptados a tus necesidades.
-        Ya sea que busques una bodega para resguardar tu inventario, equipos o bienes personales, tenemos la
-        solución perfecta para ti.
-      </div>
-      <div class="col">
-        <img src="01.jpg" alt="Bodega Lluna" class="img-fluid rounded shadow"
-          style="max-height: 300px; object-fit: cover;">
-        <p>
-        <h1>Objetivo</h1>
-        Nuestro objetivo es ayudarte a liberar tu espacio de oficina y hogar.
-        Tenemos una gran variedad de tamaños desde 7.5 hasta 48.6 m2 .
-      </div>
-      <div class="col">
-        <img src="09.jpg" alt="Bodega Lluna" class="img-fluid rounded shadow"
-          style="max-height: 300px; object-fit: cover;">
-        <p>
-        <h1>Variedad de Tamaños</h1>
-        Tenemos una gran variedad de tamaños desde 7.5 hasta 48.6 m2 .
-        Si tienes un negocio y necesitas disponer de un espacio con acceso las 24 horas para almacenar tu inventario,
-        Lluna Mini Bodegas puede ayudarte.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Lista-->
-
-  <div class="accordion">
-
-    <h2 style="text-align: center;">Requisitos</h2>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-          aria-expanded="false" aria-controls="collapseOne">
-          Persona Fisica
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <ul>
-            <li>Constancia de situación fiscal vigente (en caso de ocupar factura).</li>
-            <li>Comprobante de domicilio con antigüedad no mayor a 2 meses.</li>
-            <li>Identificación oficial (INE).</li>
-            <li>Nombre completo de persona que autoriza en caso extraordinario para acudir en su representación.
-            </li>
-            <li>Actividad Económica.</li>
-            <li>Duración en meses que desea celebrar el contrato.</li>
-            <li>Correo electrónico.</li>
-          </ul>
+  <div class="container-fluid bg-light py-5">
+    <div class="container text-center">
+      <div class="row align-items-start g-4">
+        <div class="col">
+          <img src="05.jpg" alt="Bodega Lluna" class="img-fluid rounded shadow"
+            style="max-height: 300px; object-fit: cover;">
+          <h1 class="mt-3">Sobre Nosotros</h1>
+          <p>
+            <strong>En LLUNA MINI BODEGAS</strong> ofrecemos espacios de almacenamiento seguros, accesibles y adaptados
+            a tus necesidades. Ya sea que busques una bodega para resguardar tu inventario, equipos o bienes personales,
+            tenemos la solución perfecta para ti.
+          </p>
+        </div>
+        <div class="col">
+          <img src="01.jpg" alt="Objetivo Lluna" class="img-fluid rounded shadow"
+            style="max-height: 300px; object-fit: cover;">
+          <h1 class="mt-3">Objetivo</h1>
+          <p>
+            Nuestro objetivo es ayudarte a liberar tu espacio de oficina y hogar. Tenemos una gran variedad de tamaños
+            desde 7.5 hasta 48.6 m².
+          </p>
+        </div>
+        <div class="col">
+          <img src="09.jpg" alt="Tamaños Lluna" class="img-fluid rounded shadow"
+            style="max-height: 300px; object-fit: cover;">
+          <h1 class="mt-3">Variedad de Tamaños</h1>
+          <p>
+            Tenemos una gran variedad de tamaños desde 7.5 hasta 48.6 m². Si tienes un negocio y necesitas disponer de
+            un espacio con acceso las 24 horas para almacenar tu inventario, Lluna Mini Bodegas puede ayudarte.
+          </p>
         </div>
       </div>
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-          aria-expanded="false" aria-controls="collapseTwo">
-          Persona Moral
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <ul>
-            <li>Acta Constitutiva.</li>
-            <li>Poder notarial de representante legal en caso de no estar en Acta Constitutiva.</li>
-            <li>Constancia de situación fiscal vigente.</li>
-            <li>Comprobante de domicilio con antigüedad no mayor a 2 meses.</li>
-            <li>Identificación oficial del representante legal (INE).</li>
-            <li>Nombre completo de persona que autoriza en caso extraordinario para acudir en su representación.
-            </li>
-            <li>Duración en meses que desea celebrar el contrato.</li>
-            <li>Correo electrónico.</li>
-          </ul>
-        </div>
-      </div>
+  </div>
+  <!--Requisitos-->
+  <h1 class="text-center mb-4">Requisitos</h1>
+  <div class="requisitos">
+    <div class="Fisica">
+      <h2>Personas Fisicas</h2>
+      <li>Constancia de situación fiscal vigente (en caso de ocupar factura).</li>
+      <li>Comprobante de domicilio con antigüedad no mayor a 2 meses.</li>
+      <li>Identificación oficial (INE).</li>
+      <li>Nombre completo de persona que autoriza en caso extraordinario para acudir en su representación.</li>
+      <li>Actividad Económica.</li>
+      <li>Duración en meses que desea celebrar el contrato.</li>
+      <li>Correo electrónico.</li>
     </div>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <ul>
-
-      </div>
+    <div class="Moral">
+      <h2>Personas Moral</h2>
+      <li>Acta Constitutiva.</li>
+      <li>Poder notarial de representante legal en caso de no estar en Acta Constitutiva.</li>
+      <li>Constancia de situación fiscal vigente.</li>
+      <li>Comprobante de domicilio con antigüedad no mayor a 2 meses.</li>
+      <li>Identificación oficial del representante legal (INE).</li>
+      <li>Nombre completo de persona que autoriza en caso extraordinario para acudir en su representación.</li>
+      <li>Duración en meses que desea celebrar el contrato.</li>
+      <li>Correo electrónico.</li>
     </div>
   </div>
 
-  <br><br>
-  
- <h2 style="text-align: center;">Calcula Tu Espacio</h2>
-  
-<div
-  id="calcumate-root"
-  data-integration="luishdez13.github.io"
-  data-integration-2=""
-  data-ref="AQICAHhReAOexSsfBeJ/FMNVdjLFzyMEhuepXqwRfRaqckbrnAFfhWQIz8as5CCn9JAXYdyuAAAAgzCBgAYJKoZIhvcNAQcGoHMwcQIBADBsBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDKfPmju53aUSPQUTkQIBEIA/tXFc9ABvjqh7y8HuG0Us8iE1riHi6gVBVEU6qGbX2rut4IIt4nHI3wl6INSBylS/N6+rvYwtsSX2+rv6WaaH"
-  data-int="bcf9b939-24e0-45d4-b484-188047b2f5e1"
-></div>
-<script defer src="https://production.calcumate.co/static/js/main.js"></script>
-
+  <!--Calculadora-->
+  <div id="calcumate-root" data-integration="luishdez13.github.io" data-integration-2=""
+    data-ref="AQICAHhReAOexSsfBeJ/FMNVdjLFzyMEhuepXqwRfRaqckbrnAFfhWQIz8as5CCn9JAXYdyuAAAAgzCBgAYJKoZIhvcNAQcGoHMwcQIBADBsBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDKfPmju53aUSPQUTkQIBEIA/tXFc9ABvjqh7y8HuG0Us8iE1riHi6gVBVEU6qGbX2rut4IIt4nHI3wl6INSBylS/N6+rvYwtsSX2+rv6WaaH"
+    data-int="bcf9b939-24e0-45d4-b484-188047b2f5e1"></div>
+  <script defer src="https://production.calcumate.co/static/js/main.js"></script>
 
   <!--Cotizacion-->
   <div id="Cotizacion" class="seccion container my-5">
@@ -223,6 +191,12 @@
           <div class="card-body">
             <h5 class="card-title">7.5 m²</h5>
             <h6 class="card-subtitle mb-2 text-muted">Dimensiones: 1.67m x 4.50m</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-door-closed"
+              viewBox="0 0 16 16">
+              <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3zm1 13h8V2H4z" />
+              <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
+            </svg>
+            <br>
             <a href="https://wa.me/524791546829?text=Hola!%20Estoy%20interesado%20en%20la%20bodega%20de%207.5%20m²,%20¿me%20pueden%20dar%20más%20informes?"
               target="_blank" class="btn btn-primary mt-3">Cotizar</a>
           </div>
@@ -235,6 +209,12 @@
           <div class="card-body">
             <h5 class="card-title">8.6 m²</h5>
             <h6 class="card-subtitle mb-2 text-muted">Dimensiones: 2.95m x 2.92m</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-door-closed"
+              viewBox="0 0 16 16">
+              <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3zm1 13h8V2H4z" />
+              <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
+            </svg>
+            <br>
             <a href="https://wa.me/524791546829?text=Hola!%20Estoy%20interesado%20en%20la%20bodega%20de%208.6%20m²,%20¿me%20pueden%20dar%20más%20informes?"
               target="_blank" class="btn btn-primary mt-3">Cotizar</a>
           </div>
@@ -242,11 +222,17 @@
       </div>
 
       <!-- Card 3 -->
-     <div class="col" data-aos="fade-up" data-aos-delay="100">
+      <div class="col" data-aos="fade-up" data-aos-delay="100">
         <div class="card h-100 text-center">
           <div class="card-body">
             <h5 class="card-title">10.8 m²</h5>
             <h6 class="card-subtitle mb-2 text-muted">Dimensiones: 3.00m x 3.60m</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-door-closed"
+              viewBox="0 0 16 16">
+              <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3zm1 13h8V2H4z" />
+              <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
+            </svg>
+            <br>
             <a href="https://wa.me/524791546829?text=Hola!%20Estoy%20interesado%20en%20la%20bodega%20de%2010.8%20m²,%20¿me%20pueden%20dar%20más%20informes?"
               target="_blank" class="btn btn-primary mt-3">Cotizar</a>
           </div>
@@ -259,6 +245,12 @@
           <div class="card-body">
             <h5 class="card-title">13.3 m²</h5>
             <h6 class="card-subtitle mb-2 text-muted">Dimensiones: 2.95m x 4.50m</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-door-closed"
+              viewBox="0 0 16 16">
+              <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3zm1 13h8V2H4z" />
+              <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
+            </svg>
+            <br>
             <a href="https://wa.me/524791546829?text=Hola!%20Estoy%20interesado%20en%20la%20bodega%20de%2013.3%20m²,%20¿me%20pueden%20dar%20más%20informes?"
               target="_blank" class="btn btn-primary mt-3">Cotizar</a>
           </div>
@@ -271,6 +263,12 @@
           <div class="card-body">
             <h5 class="card-title">16.2 m²</h5>
             <h6 class="card-subtitle mb-2 text-muted">Dimensiones: 2.95m x 5.50m</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-door-closed"
+              viewBox="0 0 16 16">
+              <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3zm1 13h8V2H4z" />
+              <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
+            </svg>
+            <br>
             <a href="https://wa.me/524791546829?text=Hola!%20Estoy%20interesado%20en%20la%20bodega%20de%2016.2%20m²,%20¿me%20pueden%20dar%20más%20informes?"
               target="_blank" class="btn btn-primary mt-3">Cotizar</a>
           </div>
@@ -283,6 +281,12 @@
           <div class="card-body">
             <h5 class="card-title">17.3 m²</h5>
             <h6 class="card-subtitle mb-2 text-muted">Dimensiones: 2.95m x 5.85m</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-door-closed"
+              viewBox="0 0 16 16">
+              <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3zm1 13h8V2H4z" />
+              <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
+            </svg>
+            <br>
             <a href="https://wa.me/524791546829?text=Hola!%20Estoy%20interesado%20en%20la%20bodega%20de%2017.3%20m²,%20¿me%20pueden%20dar%20más%20informes?"
               target="_blank" class="btn btn-primary mt-3">Cotizar</a>
           </div>
@@ -295,12 +299,34 @@
           <div class="card-body">
             <h5 class="card-title">34.7 m²</h5>
             <h6 class="card-subtitle mb-2 text-muted">Dimensiones: 5.95m x 5.85m</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-door-closed"
+              viewBox="0 0 16 16">
+              <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3zm1 13h8V2H4z" />
+              <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0" />
+            </svg>
+            <br>
             <a href="https://wa.me/524791546829?text=Hola!%20Estoy%20interesado%20en%20la%20bodega%20de%2034.7%20m²,%20¿me%20pueden%20dar%20más%20informes?"
               target="_blank" class="btn btn-primary mt-3">Cotizar</a>
           </div>
         </div>
       </div>
 
+    </div>
+  </div>
+
+  <!--Ubicacion y Mapa-->
+  <div class="Ubicacion">
+    <div class="Descripcion">
+      <h3>Visitanos para que conozcas tu nuevo espacion</h3>
+      <p>Blvd. Jose Maria Morelos 3548</p>
+      <p>Col. San Miguel de Rentería, 37278 León, Guanajuato</p>
+    </div>
+    <div class="Mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.5646879609535!2d-101.63279489041761!3d21.129914380463713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf43aac138b9%3A0xae538940d350679a!2sLluna%20Mini%20Bodegas!5e0!3m2!1ses!2smx!4v1753195227189!5m2!1ses!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
   </div>
 
